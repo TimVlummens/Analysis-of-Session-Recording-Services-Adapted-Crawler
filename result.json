@@ -1,0 +1,176 @@
+{
+  "global": {
+    "validFiles": 2,
+    "failingFiles": 0,
+    "timeouts": 0,
+    "totalTime": 15490,
+    "avgTime": 7745
+  },
+  "requests": {
+    "failed": 0,
+    "empty": 0,
+    "totalEntries": 5,
+    "avgEntries": 2.5,
+    "topRequests": [
+      [
+        "https://example.com/",
+        1
+      ],
+      [
+        "https://timvlummens.github.io/Thesis-Test-Website/",
+        1
+      ],
+      [
+        "https://timvlummens.github.io/Thesis-Test-Website/img1.png",
+        1
+      ],
+      [
+        "https://edge.fullstory.com/s/fs.js",
+        1
+      ],
+      [
+        "https://rs.fullstory.com/rec/page",
+        1
+      ]
+    ],
+    "topDomains": [
+      [
+        "example.com",
+        1
+      ],
+      [
+        "timvlummens.github.io",
+        1
+      ],
+      [
+        "edge.fullstory.com",
+        1
+      ],
+      [
+        "rs.fullstory.com",
+        1
+      ]
+    ],
+    "topIPs": [
+      [
+        "[2606:2800:220:1:248:1893:25c8:1946]",
+        1
+      ],
+      [
+        "[2606:50c0:8003::153]",
+        1
+      ],
+      [
+        "35.201.112.186",
+        1
+      ],
+      [
+        "35.186.194.58",
+        1
+      ]
+    ],
+    "mostRequests": {
+      "url": "https://timvlummens.github.io/Thesis-Test-Website/",
+      "count": 4
+    },
+    "leastRequests": {
+      "url": "https://example.com/",
+      "count": 1
+    }
+  },
+  "apis": {
+    "failed": 0,
+    "empty": 0,
+    "totalEntries": 0,
+    "avgEntries": 0,
+    "popularity": [
+      [
+        "Navigator.prototype.userAgent",
+        1
+      ],
+      [
+        "Navigator.prototype.vendor",
+        1
+      ],
+      [
+        "Document.cookie getter",
+        1
+      ],
+      [
+        "window.localStorage",
+        1
+      ],
+      [
+        "Performance.prototype.memory",
+        1
+      ],
+      [
+        "Screen.prototype.width",
+        1
+      ],
+      [
+        "Screen.prototype.height",
+        1
+      ],
+      [
+        "window.sessionStorage",
+        1
+      ],
+      [
+        "PerformanceTiming.prototype.navigationStart",
+        1
+      ]
+    ],
+    "mostAPIsCalled": [
+      [
+        "https://edge.fullstory.com/s/fs.js",
+        9
+      ]
+    ]
+  },
+  "cookies": {
+    "failed": 0,
+    "empty": 2,
+    "totalEntries": 0,
+    "avgEntries": 0,
+    "topCookieNames": [],
+    "mostCookies": {
+      "url": "https://example.com/",
+      "count": 0
+    },
+    "leastCookies": {
+      "url": "https://example.com/",
+      "count": 0
+    },
+    "avgThirdParty": null
+  },
+  "targets": {
+    "failed": 0,
+    "empty": 0,
+    "totalEntries": 2,
+    "avgEntries": 1,
+    "overOneTarget": [],
+    "mostTargets": {
+      "url": "https://example.com/",
+      "count": 1
+    }
+  },
+  "trace": {
+    "failed": 0,
+    "empty": 0,
+    "totalEntries": 0,
+    "avgEntries": 0
+  },
+  "screenshots": {
+    "failed": 0,
+    "empty": 0,
+    "totalEntries": 0,
+    "avgEntries": 0
+  },
+  "cmps": {
+    "failed": 0,
+    "empty": 2,
+    "totalEntries": 0,
+    "avgEntries": 0
+  }
+}

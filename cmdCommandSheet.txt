@@ -1,0 +1,17 @@
+npm run crawl -- -u "timvlummens.github.io/Thesis-Test-Website" -o ./data/ -v -f -d srs,requests,apis --reporters "cli,file" -l ./data/
+
+npm run crawl -- -o ./data/ -v -f -d srs,requests,apis --reporters "cli,file" -l ./data/ -u metrica.yandex.com
+
+npm run crawl -- -o ./data/ -v -f -d srs,requests,apis --reporters "cli,file" -l ./data/ -u
+
+npm run crawl -- -o ./data/ -v -f -d srs,requests,apis --reporters "cli,file" -l ./data/ -i ./input/TestURLsOther.txt
+
+npm run crawl -- -o ./data/ -v -f -d srs,requests,apis --reporters "cli,file" -l ./data/ -i ./input/top_100k.txt
+
+npm run crawl -- -o ./data/ -v -f -d srs,requests,apis --reporters "cli,file" -l ./data/ -i ./input/
+
+--reporters "cli,file" -l ./data/
+
+pscp -P 22 -r -i "C:\Users\hp\.ssh\KULeuvenThesis_putty.ppk" root@67.205.139.18:/root/project/KULeuven-Thesis-Adapted-tracker-radar-collector-main/data "D:\Tim\Git\KULeuven-Thesis-Adapted-tracker-radar-collector-main/data"
+
+pscp -P 22 -r -i "C:\Users\hp\.ssh\KULeuvenThesis_putty.ppk" root@162.243.168.75:/root/project/KULeuven-Thesis-Adapted-tracker-radar-collector-main/data_230417.tar.gz "D:\Tim\Git\Thesis-srs-crawl-results"
